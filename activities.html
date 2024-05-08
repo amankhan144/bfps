@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Future Public School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .row1 {
+            background-color: #ff0000;
+            height: 50px;
+            width: 100%;
+
+
+        }
+
+        .row1a {
+            text-align: center;
+            font-style: italic;
+            color: white;
+            font-size: 20px;
+            display: inline-block;
+            padding: 10px 2px 10px;
+        }
+
+        .row1b {
+            text-align: center;
+            font-style: italic;
+            color: white;
+            font-size: 20px;
+            display: inline-block;
+            padding: 12px 36px;
+
+        }
+
+        .row1c {
+            text-align: center;
+            font-style: italic;
+            color: white;
+            font-size: 20px;
+            display: inline-block;
+            padding: 10px 10px;
+        }
+
+        .row1d {
+
+            display: inline-block;
+            padding-right: 10px;
+            position: relative;
+            right: -224px;
+            color: blue;
+            size: 20px;
+
+        }
+
+        .row1e {
+
+            display: inline-block;
+            padding-right: 10px;
+            position: relative;
+            right: -147px;
+        }
+
+        .row1f {
+
+            display: inline-block;
+            padding-right: 10px;
+            position: relative;
+            right: -136px;
+        }
+
+        .row2 {
+            background-color: rgb(208, 217, 224);
+            height: 100px;
+            width: 100%;
+            box-shadow: 10px 8px 9px red;
+            position: relative;
+        }
+
+        .row2b {
+            font-size: 50px;
+            color: #ff0000;
+            padding-top: 24px;
+            padding-left: 251px;
+            text-shadow: 4px 3px 13px #2b2a25;
+            position: relative;
+            top: -103px;
+        }
+
+        .row3 {
+            background-color: rgb(208, 217, 224);
+            height: 50px;
+            width: 100%;
+            margin-top: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+
+        }
+
+        .row3 a {
+            display: inline-block;
+            float: left;
+            height: 38px;
+            width: 98px;
+            background-color: #ff0000;
+            text-decoration: none;
+            border-radius: 32px;
+            border: 5px solid rgb(189 143 143);
+            position: relative;
+            top: 2px;
+            color: white;
+            left: 250px;
+            font-size: 22px;
+            text-align: center;
+
+        }
+
+        a:hover {
+            background-color: black;
+        }
+
+
+        .slimain {
+            width: 100%;
+            height: 400px;
+            background-color: rgb(208, 217, 224);
+            margin-top: 3px;
+        }
+
+        .slider1 {
+            width: 1000px;
+            height: 400px;
+            background-image: url(tw.jpg);
+            background-size: cover;
+        }
+
+        .noti {
+            width: 396px;
+            height: 396px;
+            border: 2px solid rgb(208, 217, 224);
+            border-radius: 10px;
+            position: absolute;
+            top: 218px;
+            left: 1003px;
+
+        }
+
+        .noti1 {
+            width: 400px;
+            height: 50px;
+            background-color: #ff0000;
+            border-radius: 18px;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+
+        .noti2 {
+            text-align: center;
+            font-size: 20px;
+            background-color: rgb(208, 217, 224);
+            width: 396px;
+            height: 348px;
+        }
+
+        .noti1:hover {
+            background-color: black;
+        }
+
+
+        .maing {
+            width: 100%;
+            height: 900px;
+            background-color: rgb(236, 240, 233);
+        }
+
+        .img1 {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            position: relative;
+            top: 8px;
+            left: 12px;
+        }
+
+        .img1a {
+            width: 400px;
+            height: 350px;
+            border-bottom: 2px solid black;
+        }
+
+        .imgname1 {
+            width: 400px;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .img2 {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            position: relative;
+            left: 452px;
+            top: -395px;
+        }
+
+        .img2a {
+            width: 400px;
+            height: 350px;
+            border-bottom: 2px solid black;
+        }
+
+        .imgname2 {
+            width: 400px;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+
+        .img3 {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            position: relative;
+            top: -798px;
+            left: 914px;
+        }
+
+        .img3a {
+            width: 400px;
+            height: 350px;
+            border-bottom: 2px solid black;
+        }
+
+        .imgname3 {
+            width: 400px;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .img4 {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            position: relative;
+            top: -789px;
+            left: 12px;
+        }
+
+        .img4a {
+            width: 400px;
+            height: 350px;
+            border-bottom: 2px solid black;
+        }
+
+        .imgname4 {
+            width: 400px;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .img5 {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            position: relative;
+            top: -1191px;
+            left: 451px;
+        }
+
+        .img5a {
+            width: 400px;
+            height: 350px;
+            border-bottom: 2px solid black;
+        }
+
+        .imgname5 {
+            width: 400px;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .img6 {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            position: relative;
+            top: -1591px;
+            left: 914px;
+
+        }
+
+        .img6a {
+            width: 400px;
+            height: 350px;
+            border-bottom: 2px solid black;
+        }
+
+        .imgname6 {
+            width: 400px;
+            height: 50px;
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+
+        .fot {
+            height: 300px;
+            width: 100%;
+            background-color: rgb(208, 217, 224);
+
+            position: absolute;
+            margin-top: 4px;
+        }
+
+
+        .fc {
+            height: 200px;
+            width: 300px;
+            border: 2px solid rgb(189 143 143);
+            ;
+            position: absolute;
+            top: 11px;
+            left: 27px;
+            text-align: center;
+            color: white;
+            padding-top: 10px;
+            background-color: #ff0000;
+
+
+
+        }
+
+        .fo {
+            height: 200px;
+            width: 300px;
+            background-color: #ff0000;
+            position: absolute;
+            text-align: center;
+            left: 931px;
+            top: 1535px;
+            padding-top: 10px;
+            color: white;
+
+        }
+
+        .fl {
+            height: 200px;
+            width: 300px;
+            background-color: #ff0000;
+            position: absolute;
+            text-align: center;
+            top: 1535px;
+            left: 482px;
+            padding-top: 10px;
+            color: white;
+
+        }
+
+        span {
+            text-decoration: underline;
+            font-size: 20px;
+        }
+
+        .rowb1 {
+            position: fixed;
+            bottom: 15px;
+            right: 39px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="rowb2">
+
+    </div>
+    <div class="row1">
+        <div class="row1a"><i class="fa-solid fa-mobile-retro" style="color: #10100f;"></i>Mobile No:7978646169</div>
+        <div class="row1b"><i class="fa-regular fa-clock-desk" style="color: #0f0f10;"></i>Openng Time:9 A.M. to 5 P.M.
+        </div>
+        <div class="row1c"><i class="fa-solid fa-location-dot" style="color: #07090e;"></i>Address:Near ByPass
+            Road,Korai,Jajpur</div>
+        <div class="row1d"><i class="fa-brands fa-facebook"></i></div>
+        <div class="row1e"><i class="fa-brands fa-square-x-twitter fa-xl" style="color: #74C0FC;"></i></div>
+        <div class="row1f"><i class="fa-brands fa-square-whatsapp fa-lg" style="color: #3de70d;"></i></div>
+    </div>
+    <div class="row2">
+        <div><img src="logo.jpeg" height="100px" width="200px"></div>
+        <div class="row2b">BRIGHT FUTURE PUBLIC SCHOOL</div>
+    </div>
+    <div class="row3">
+        <a href="index.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="faci.html">Facilities</a>
+        <a href="activities.html">Activities</a>
+        <a href="Admission.html">Admission</a>
+        <a href="Teacher.html">Teachers</a>
+        <a href="gallary.html">Gallary</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="slimain">
+        <div class="slider1">
+            <img src="tw.jpg" width="1000px" height="400px">
+        </div>
+        <div class="noti">
+            <div class="noti1">Notice Board</div>
+            <div class="noti2">
+
+                <marquee width="60%" direction="up" height="300px">
+                    Admission Open for Nursery to Class-III.
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <!--gallary-->
+
+    <div class="maing">
+        <div class="img1">
+            <div class="img1a">
+                <img src="a1.jpg" width="400px" height="350">
+            </div>
+            <div class="imgname1">
+                Painting
+            </div>
+        </div>
+
+        <!--imag2-->
+        <div class="img2">
+            <div class="img2a">
+                <img src="a2.jpg" width="400px" height="350">
+            </div>
+            <div class="imgname2">
+                Drawing
+            </div>
+        </div>
+        <!---img3-->
+        <div class="img3">
+            <div class="img3a">
+                <img src="a3.png" width="400px" height="350">
+            </div>
+            <div class="imgname3">
+                Puzzle Class
+            </div>
+        </div>
+        <!---img4-->
+        <div class="img4">
+            <div class="img4a">
+                <img src="s4.jpg" width="400px" height="350">
+            </div>
+            <div class="imgname4">
+                Activities Class
+            </div>
+        </div>
+
+        <!---img5-->
+        <div class="img5">
+            <div class="img5a">
+                <img src="s5.jpg" width="400px" height="350">
+            </div>
+            <div class="imgname5">
+                Play Ground
+            </div>
+        </div>
+
+        <!---img6-->
+        <div class="img6">
+            <div class="img6a">
+                <img src="s6.jpg" width="400px" height="350">
+            </div>
+            <div class="imgname6">
+                Annual Function
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fot">
+        <div class="fc"><span>CONTACT</span>
+            <br>BRIGHT FUTURE PUBLIC SCHOOL<br>By PassRoad,Near Petrol Pump<br>
+            Korai,Jajpur-755022,Odisha<br>
+            Mob:+91978646169,+919853771970<br>
+            Email:bfps@gmail.com
+
+        </div>
+
+    </div>
+    <div class="fo"><span>OPENING TIME</span><br>
+
+        Monday-9 A.M to 5 P.M<br>
+        Tuesday-9 A.M to 5 P.M<br>
+        Wednesday-9 A.M to 5 P.M <br>
+        Thursday-9 A.M to 5 P.M<br>
+        Friday-9 A.M to 5 P.M<br>
+        Saturday-9 A.M to 5 P.M
+
+    </div>
+
+
+    <div class="fl"><span>LOCATION</span>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1917.4113859136999!2d86.18273102536628!3d20.966452312826902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1955d30227d08d%3A0x8572c536e078d1c9!2sSMART%20TRAVELS%20%26%20SERVICE!5e0!3m2!1sen!2sin!4v1710689277190!5m2!1sen!2sin"
+            width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    </div>
+    <a href="#rowb2" class="rowb1"><i class="fa-regular fa-circle-up fa-2xl" style="color: #f00505;"></i></a>
+
+</body>
+
+</html>
